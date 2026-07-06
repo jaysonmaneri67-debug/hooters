@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Plush Kaisen Wiki</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<h2>📚 Plush Kaisen Wiki</h2>
+
+
+<input id="search"
+placeholder="🔍 Search wiki..."
+onkeyup="searchWiki()">
+
+
+
+<a onclick="showPage('home')">🏠 Home</a>
+
+<a onclick="showPage('episodes')">📺 Episodes</a>
+
+
+<h3>👤 Characters</h3>
+
+<a onclick="showPage('bonnie')">🐰 Bonnie</a>
+
+<a onclick="showPage('nightmare')">😈 Nightmare Bonnie</a>
+
+<a onclick="showPage('monty')">🐊 Monty</a>
+
+<a onclick="showPage('foxy')">🦊 Foxy</a>
+
+<a onclick="showPage('puppet')">🎭 Puppet</a>
+
+<a onclick="showPage('freddy')">🐻 Freddy</a>
+
+<a onclick="showPage('chica')">🐥 Chica</a>
+
+
+
+<h3>⚔️ Wiki</h3>
+
+<a onclick="showPage('techniques')">
+⚔️ Techniques
+</a>
+
+<a onclick="showPage('domains')">
+🌀 Domains
+</a>
+
+<a onclick="showPage('matchups')">
+⚔️ Match Ups
+</a>
+
+
+</div>
+
+
+
+<!-- MAIN -->
+
+<div class="main">
+
+
+
+<!-- HOME -->
+
+<section id="home" class="page active">
+
+<div class="card">
+
+<h1>🏠 Plush Kaisen Wiki</h1>
+
+
+<p>
+Welcome to the Plush Kaisen universe wiki.
+Explore characters, cursed techniques,
+domains, episodes, and battles.
+</p>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- EPISODES -->
+
+<section id="episodes" class="page">
+
+
+<div class="card">
+
+<h1>📺 Episodes</h1>
+
+
+<h2>
+Episode 1 — The Great Springbonnie
+</h2>
+
+
+<p>
+The beginning of the Plush Kaisen story.
+</p>
+
+
+<a href="https://youtu.be/-yVzOAsVIYs?si=Y3haGm8rEGg0sOU0"
+target="_blank">
+
+<button>
+Watch Episode
+</button>
+
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- BONNIE -->
+
+<section id="bonnie" class="page">
+
+<div class="card character">
+
+<img src="images/bonnie.png">
+
+
+<h1>🐰 Bonnie</h1>
+
+
+<h2>Personality</h2>
+
+<p>
+Calm but can become frustrated when pushed too far.
+A determined fighter who adapts to situations.
+</p>
+
+
+<h2>Cursed Technique</h2>
+
+<p>
+<b>Silence of the Great</b><br>
+Bonnie creates a fake jar that absorbs background noise
+and converts it into cursed energy blasts.
+</p>
+
+
+<h2>Domain Expansion</h2>
+
+<p>
+<b>Noise Drowned Out by the Loud Ring of Silence</b><br>
+A domain where opponents experience intense hallucinations
+while Bonnie controls the battlefield.
+</p>
+
+
+<h2>Fun Facts</h2>
+
+<ul>
+
+<li>Loves ramen.</li>
+
+<li>Uses sound as a weapon.</li>
+
+<li>One of the strongest fighters.</li>
+
+</ul>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- NIGHTMARE BONNIE -->
+
+<section id="nightmare" class="page">
+
+<div class="card character">
+
+
+<img src="images/nightmarebonnie.png">
+
+
+<h1>😈 Nightmare Bonnie</h1>
+
+
+<h2>Personality</h2>
+
+<p>
+Aggressive, unpredictable, and driven by rage.
+</p>
+
+
+<h2>Cursed Technique</h2>
+
+<p>
+<b>Cursed Energy Consumption</b><br>
+Consumes cursed energy and grows stronger.
+</p>
+
+
+<h2>Domain Expansion</h2>
+
+<p>
+<b>Devouring Void</b>
+</p>
+
+
+<h2>Fun Facts</h2>
+
+<ul>
+
+<li>The reason his dad doesn't have a big toe.</li>
+
+<li>Gets stronger during long battles.</li>
+
+<li>His rage creates cursed energy.</li>
+
+</ul>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- MONTY -->
+
+<section id="monty" class="page">
+
+<div class="card character">
+
+<img src="images/monty.png">
+
+
+<h1>🐊 Monty</h1>
+
+
+<h2>Personality</h2>
+
+<p>
+Loud, confident, and loves fighting.
+</p>
+
+
+<h2>Cursed Technique</h2>
+
+<p>
+<b>Ruin Drive</b><br>
+Increases strength through momentum.
+</p>
+
+
+<h2>Domain Expansion</h2>
+
+<p>
+<b>Crushing Pit</b>
+</p>
+
+
+<h2>Fun Facts</h2>
+
+<ul>
+
+<li>Loves Pomni-chan.</li>
+
+<li>Uses overwhelming power.</li>
+
+<li>Enjoys testing his strength.</li>
+
+</ul>
+
+
+</div>
+
+</section><!-- FOXY -->
+
+<section id="foxy" class="page">
+
+<div class="card character">
+
+<img src="images/foxy.png">
+
+<h1>🦊 Foxy</h1>
+
+
+<h2>Personality</h2>
+
+<p>
+Strategic, confident, and usually the one planning ahead.
+Foxy prefers using intelligence and teamwork over rushing in.
+</p>
+
+
+<h2>Cursed Technique</h2>
+
+<p>
+<b>AirPods Sync</b><br>
+Foxy uses communication and coordination to organize the team's attacks.
+</p>
+
+
+<h2>Domain Expansion</h2>
+
+<p>
+<b>Pirates Cove</b><br>
+A battlefield controlled by Foxy's strategies.
+</p>
+
+
+<h2>Fun Facts</h2>
+
+<ul>
+
+<li>Stopped World War 3 at age 5.</li>
+
+<li>Smarter than Einstein and Young Sheldon combined.</li>
+
+<li>One of the main strategists of the group.</li>
+
+</ul>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- PUPPET -->
+
+<section id="puppet" class="page">
+
+<div class="card character">
+
+<img src="images/puppet.png">
+
+
+<h1>🎭 Puppet</h1>
+
+
+<h2>Personality</h2>
+
+<p>
+Creative, mysterious, and unpredictable.
+Puppet prefers confusing enemies with tricks.
+</p>
+
+
+<h2>Cursed Technique</h2>
+
+<p>
+<b>Prize Box Shikigami</b><br>
+A box shikigami technique that works similarly to Deadly Prize.
+It creates a trap effect that forces opponents into its ability.
+</p>
+
+
+<h2>Domain Expansion</h2>
+
+<p>
+<b>Uncanny Replica Theater</b><br>
+A domain filled with copies and illusions.
+</p>
+
+
+<h2>Fun Facts</h2>
+
+<ul>
+
+<li>Sent his dad's phone into the sun using his technique.</li>
+
+<li>Uses clones and shikigami.</li>
+
+<li>Wins through strategy instead of raw strength.</li>
+
+</ul>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- FREDDY -->
+
+<section id="freddy" class="page">
+
+<div class="card character">
+
+<img src="images/freddy.png">
+
+
+<h1>🐻 Freddy</h1>
+
+
+<h2>Personality</h2>
+
+<p>
+Energetic, dramatic, and loves making announcements.
+</p>
+
+
+<h2>Cursed Technique</h2>
+
+<p>
+<b>Broadcast Control</b><br>
+Uses information and broadcasts as part of his abilities.
+</p>
+
+
+<h2>Domain Expansion</h2>
+
+<p>
+<b>Breaking News Arena</b><br>
+A domain based around broadcasts and information.
+</p>
+
+
+<h2>Fun Facts</h2>
+
+<ul>
+
+<li>Is short.</li>
+
+<li>Loves dramatic announcements.</li>
+
+<li>Adds comedy to serious moments.</li>
+
+</ul>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- CHICA -->
+
+<section id="chica" class="page">
+
+<div class="card character">
+
+<img src="images/chica.png">
+
+
+<h1>🐥 Chica</h1>
+
+
+<h2>Personality</h2>
+
+<p>
+Chaotic, energetic, and impossible to predict.
+</p>
+
+
+<h2>Cursed Technique</h2>
+
+<p>
+<b>Chaotic Energy</b><br>
+Uses unpredictable cursed energy patterns.
+</p>
+
+
+<h2>Domain Expansion</h2>
+
+<p>
+<b>Golden Chaos</b>
+</p>
+
+
+<h2>Fun Facts</h2>
+
+<ul>
+
+<li>Secretly a huge weeb.</li>
+
+<li>Her favorite anime is Death Note.</li>
+
+<li>Her fighting style changes constantly.</li>
+
+</ul>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- TECHNIQUES -->
+
+<section id="techniques" class="page">
+
+<div class="card">
+
+<h1>⚔️ Techniques</h1>
+
+
+<div class="info">
+
+<h2>Silence of the Great</h2>
+
+<p>
+Bonnie absorbs background noise into a jar and converts it into cursed energy blasts.
+</p>
+
+
+<h2>Prize Box Shikigami</h2>
+
+<p>
+Puppet's box-based technique that traps opponents through its ability.
+</p>
+
+
+<h2>Ruin Drive</h2>
+
+<p>
+Monty's momentum-based strength technique.
+</p>
+
+
+<h2>AirPods Sync</h2>
+
+<p>
+Foxy's communication and coordination technique.
+</p>
+
+
+<h2>Cursed Energy Consumption</h2>
+
+<p>
+Nightmare Bonnie's ability to consume cursed energy.
+</p>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- DOMAINS -->
+
+<section id="domains" class="page">
+
+<div class="card">
+
+<h1>🌀 Domains</h1>
+
+
+<div class="info">
+
+
+<h2>Noise Drowned Out by the Loud Ring of Silence</h2>
+
+<p>
+Bonnie's domain where opponents experience hallucinations.
+</p>
+
+
+<h2>Crushing Pit</h2>
+
+<p>
+Monty's close-combat domain.
+</p>
+
+
+<h2>Pirates Cove</h2>
+
+<p>
+Foxy's tactical battlefield.
+</p>
+
+
+<h2>Uncanny Replica Theater</h2>
+
+<p>
+Puppet's illusion-based domain.
+</p>
+
+
+<h2>Devouring Void</h2>
+
+<p>
+Nightmare Bonnie's consuming domain.
+</p>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- MATCHUPS -->
+
+<section id="matchups" class="page">
+
+<div class="card">
+
+<h1>⚔️ Match Ups</h1>
+
+
+<div id="fightBox" class="matchup">
+
+Click generate to start.
+
+</div>
+
+
+<br>
+
+
+<button onclick="generateFight()">
+Generate Match
+</button>
+
+
+</div>
+
+</section>
+
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
