@@ -1,0 +1,20 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Plush Kaisen Wiki</title><link rel="stylesheet" href="style.css"></head><body>
+<div class="sidebar"><h1>📚 Plush Kaisen Wiki</h1><input id="searchBar" placeholder="Search..." oninput="searchWiki()">
+<a onclick="showPage('home')">Home</a><a onclick="showPage('episodes')">Episodes</a>
+<h3>Characters</h3>
+<a onclick="showPage('bonnie')">Bonnie</a><a onclick="showPage('nightmare')">Nightmare Bonnie</a><a onclick="showPage('monty')">Monty</a><a onclick="showPage('foxy')">Foxy</a><a onclick="showPage('puppet')">Puppet</a><a onclick="showPage('freddy')">Freddy</a><a onclick="showPage('chica')">Chica</a>
+<a onclick="showPage('techniques')">Techniques</a><a onclick="showPage('domains')">Domains</a><a onclick="showPage('matchups')">Match Ups</a></div>
+<div class="main">
+<section id="home" class="page active"><div class="card"><h1>Home</h1><p>Welcome to Plush Kaisen Wiki.</p></div></section>
+<section id="episodes" class="page"><div class="card"><h1>Episodes</h1><p>Add your YouTube episode links here.</p></div></section>
+<section id="bonnie" class="page"><div class="card"><h1>Bonnie</h1><p><b>Personality:</b> Calm and determined.</p><p><b>Technique:</b> Silence of the Great</p><p><b>Domain:</b> Noise Drowned Out by the Loud Ring of Silence</p><p><b>Fun Fact:</b> Loves ramen.</p></div></section>
+<section id="nightmare" class="page"><div class="card"><h1>Nightmare Bonnie</h1><p><b>Personality:</b> Aggressive.</p><p><b>Technique:</b> Consumes cursed energy.</p><p><b>Domain:</b> Devouring Void</p><p><b>Fun Fact:</b> Reason his dad doesn't have a big toe.</p></div></section>
+<section id="monty" class="page"><div class="card"><h1>Monty</h1><p><b>Personality:</b> Loud.</p><p><b>Technique:</b> Ruin Drive</p><p><b>Domain:</b> Crushing Pit</p><p><b>Fun Fact:</b> Loves Pomni-chan.</p></div></section>
+<section id="foxy" class="page"><div class="card"><h1>Foxy</h1><p><b>Personality:</b> Strategic.</p><p><b>Technique:</b> AirPods Sync</p><p><b>Domain:</b> Pirates Cove</p><p><b>Fun Fact:</b> Stopped WW3 at age 5; smarter than Einstein and Young Sheldon combined.</p></div></section>
+<section id="puppet" class="page"><div class="card"><h1>Puppet</h1><p><b>Personality:</b> Mysterious.</p><p><b>Technique:</b> Prize Box Shikigami</p><p><b>Domain:</b> Uncanny Replica Theater</p><p><b>Fun Fact:</b> Sent his dad's phone into the sun.</p></div></section>
+<section id="freddy" class="page"><div class="card"><h1>Freddy</h1><p><b>Personality:</b> Dramatic.</p><p><b>Technique:</b> Broadcast Control</p><p><b>Domain:</b> Breaking News Arena</p><p><b>Fun Fact:</b> Is short.</p></div></section>
+<section id="chica" class="page"><div class="card"><h1>Chica</h1><p><b>Personality:</b> Chaotic.</p><p><b>Technique:</b> Chaotic Energy</p><p><b>Domain:</b> Golden Chaos</p><p><b>Fun Fact:</b> Secret weeb; favorite anime is Death Note.</p></div></section>
+<section id="techniques" class="page"><div class="card"><h1>Techniques</h1><ul><li>Silence of the Great</li><li>Prize Box Shikigami</li><li>Ruin Drive</li></ul></div></section>
+<section id="domains" class="page"><div class="card"><h1>Domains</h1><ul><li>Noise Drowned Out by the Loud Ring of Silence</li><li>Uncanny Replica Theater</li></ul></div></section>
+<section id="matchups" class="page"><div class="card"><h1>Match Ups</h1><div id="fight"></div><button onclick="generateFight()">Generate</button></div></section>
+</div><script src="script.js"></script></body></html>
